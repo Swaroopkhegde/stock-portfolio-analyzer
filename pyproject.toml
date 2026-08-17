@@ -1,0 +1,17 @@
+[project]
+name = "stock-portfolio-analyzer"
+version = "0.1.0"
+description = "A Stock Portfolio Analyzer app built with Streamlit"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit>=1.28.0",
+    "pandas>=2.0.0",
+    "yfinance>=0.2.32",
+    "numpy>=1.24.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]

@@ -1,0 +1,16 @@
+# Local environments and Python caches
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+.ruff_cache/
+
+# Local logs and temporary uploads
+*.log
+temp_transactions.csv
+
+# Personal brokerage exports
+MyTrans.csv
+
+# Local Streamlit secrets
+.streamlit/secrets.toml
